@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A321C5501EEA804300112697 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A321C54E1EEA804300112697 /* Home.storyboard */; };
+		A321C5521EEA80B900112697 /* Scan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A321C5511EEA80B900112697 /* Scan.storyboard */; };
+		A321C5551EEA80E000112697 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A321C5531EEA80E000112697 /* Profile.storyboard */; };
+		A321C5571EEA83D200112697 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321C5561EEA83D200112697 /* MainViewController.swift */; };
 		A3C49AC11EE99BB30074157F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C49AC01EE99BB30074157F /* AppDelegate.swift */; };
 		A3C49AC61EE99BB30074157F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C49AC41EE99BB30074157F /* Main.storyboard */; };
 		A3C49AC81EE99BB30074157F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C49AC71EE99BB30074157F /* Assets.xcassets */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A321C54F1EEA804300112697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = grwuye/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		A321C5511EEA80B900112697 /* Scan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Scan.storyboard; path = ../Main/Scan.storyboard; sourceTree = "<group>"; };
+		A321C5541EEA80E000112697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = grwuye/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		A321C5561EEA83D200112697 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A3C49ABD1EE99BB30074157F /* grwuye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grwuye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C49AC01EE99BB30074157F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3C49AC51EE99BB30074157F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -97,7 +105,6 @@
 			children = (
 				A3C49AEE1EE9A30D0074157F /* Classes */,
 				A3C49AC01EE99BB30074157F /* AppDelegate.swift */,
-				A3C49AC41EE99BB30074157F /* Main.storyboard */,
 				A3C49AC71EE99BB30074157F /* Assets.xcassets */,
 				A3C49AC91EE99BB30074157F /* LaunchScreen.storyboard */,
 				A3C49ACC1EE99BB30074157F /* Info.plist */,
@@ -138,6 +145,7 @@
 		A3C49AEF1EE9A30D0074157F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A321C54E1EEA804300112697 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -145,6 +153,8 @@
 		A3C49AF01EE9A30D0074157F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A3C49AC41EE99BB30074157F /* Main.storyboard */,
+				A321C5561EEA83D200112697 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -152,6 +162,7 @@
 		A3C49AF11EE9A30D0074157F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A321C5531EEA80E000112697 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -159,6 +170,7 @@
 		A3C49AF21EE9A30D0074157F /* Scan */ = {
 			isa = PBXGroup;
 			children = (
+				A321C5511EEA80B900112697 /* Scan.storyboard */,
 			);
 			path = Scan;
 			sourceTree = "<group>";
@@ -277,9 +289,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A321C5551EEA80E000112697 /* Profile.storyboard in Resources */,
 				A3C49ACB1EE99BB30074157F /* LaunchScreen.storyboard in Resources */,
 				A3C49AC81EE99BB30074157F /* Assets.xcassets in Resources */,
+				A321C5521EEA80B900112697 /* Scan.storyboard in Resources */,
 				A3C49AC61EE99BB30074157F /* Main.storyboard in Resources */,
+				A321C5501EEA804300112697 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C49AC11EE99BB30074157F /* AppDelegate.swift in Sources */,
+				A321C5571EEA83D200112697 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +356,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A321C54E1EEA804300112697 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A321C54F1EEA804300112697 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		A321C5531EEA80E000112697 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A321C5541EEA80E000112697 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
 		A3C49AC41EE99BB30074157F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A3C49AC51EE99BB30074157F /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A3C49AC91EE99BB30074157F /* LaunchScreen.storyboard */ = {
@@ -456,7 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = grwuye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.yolink.grwuye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -470,7 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = grwuye/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.yolink.grwuye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +586,7 @@
 				A3C49AE71EE99BB30074157F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3C49AE81EE99BB30074157F /* Build configuration list for PBXNativeTarget "grwuyeTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +595,7 @@
 				A3C49AEA1EE99BB30074157F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3C49AEB1EE99BB30074157F /* Build configuration list for PBXNativeTarget "grwuyeUITests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +604,7 @@
 				A3C49AED1EE99BB30074157F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
