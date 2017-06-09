@@ -145,7 +145,6 @@
 		A3C49AEF1EE9A30D0074157F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A321C54E1EEA804300112697 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -154,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				A3C49AC41EE99BB30074157F /* Main.storyboard */,
+				A321C54E1EEA804300112697 /* Home.storyboard */,
 				A321C5561EEA83D200112697 /* MainViewController.swift */,
 			);
 			path = Main;
@@ -362,7 +362,6 @@
 				A321C54F1EEA804300112697 /* Base */,
 			);
 			name = Home.storyboard;
-			path = ../Main;
 			sourceTree = "<group>";
 		};
 		A321C5531EEA80E000112697 /* Profile.storyboard */ = {
